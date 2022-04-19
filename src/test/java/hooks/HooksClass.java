@@ -12,7 +12,7 @@ public class HooksClass extends BaseClass{
 	public void beforeScenario() {
 		launchBrowser();
 		
-		// Test
+		// Test123
 		
 		getUrl("https://tuzzut.com/");
 		waitAll();
