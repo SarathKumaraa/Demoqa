@@ -1,0 +1,114 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-04-11T08:27:39.046Z",
+        "before": [
+          {
+            "result": {
+              "duration": 10136454000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.HooksClass.beforeScenario()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "To validate and buy the laptop first product",
+        "description": "",
+        "id": "to-validate-tuzzut-website;to-validate-and-buy-the-laptop-first-product",
+        "after": [
+          {
+            "result": {
+              "duration": 167180900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.HooksClass.closeScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6808486800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "The user has to search laptop",
+            "match": {
+              "location": "org.test.Test2.the_user_has_to_search_laptop1()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5175864600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "The user has to select the first product",
+            "match": {
+              "location": "org.test.Test1.the_user_has_to_select_the_first_product()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4811429500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "The user has to click buynow",
+            "match": {
+              "location": "org.test.Test2.the_user_has_to_click_buynow()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10451415300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "The user has to fill the contact details page",
+            "match": {
+              "location": "org.test.Test2.the_user_has_to_fill_the_contact_details_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2948928700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "The user has to click the continue shopping",
+            "match": {
+              "location": "org.test.Test2.the_user_has_to_click_the_continue_shopping()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sannity"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "To validate tuzzut website",
+    "description": "",
+    "id": "to-validate-tuzzut-website",
+    "keyword": "Feature",
+    "uri": "file:Features/test.feature",
+    "tags": []
+  }
+]
