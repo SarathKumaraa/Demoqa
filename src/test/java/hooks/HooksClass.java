@@ -11,6 +11,9 @@ public class HooksClass extends BaseClass{
 	@Before
 	public void beforeScenario() {
 		launchBrowser();
+		
+		// Test123
+		
 		getUrl("https://tuzzut.com/");
 		waitAll();
 		
